@@ -15,6 +15,11 @@ public class Employee {
 		firstName = fn; familyName = ln; hireDay = hd; salary = s;
 	}
 	
+	public Employee(String fn, String hd, double s) {
+		firstName = fn; hireDay = hd; salary = s;
+
+	}
+	
 	//string representation method
 	public String toString() {
 		return firstName + " " + familyName;
